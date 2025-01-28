@@ -4,7 +4,7 @@
     border: 1px solid gray;
     margin: auto;
     position: relative;
-    top: 100px;
+    top: 30px;
     display: grid;
     gap: 5px;
     padding: 20px;
@@ -40,4 +40,8 @@ input{
 .evaluate:hover{
     background-color: rgb(144, 181, 236);
     font-size: 30px;
+}
+h1{
+    text-align: center;
+    padding-top: 45PX;
 }
