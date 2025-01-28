@@ -1,0 +1,43 @@
+.calculator{
+    width: 30vw;
+    height: 70vh;
+    border: 1px solid gray;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: grid;
+    gap: 5px;
+    padding: 20px;
+    
+}
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+button{
+    width: 25%;
+    font-size: 25px;
+    border-radius: 5px;
+    border-color: rgb(207, 202, 202);
+}
+button:hover{
+    background-color: rgb(147, 147, 147);
+    font-size: 30px;
+}
+input{
+    width: 100%;
+    font-size: 35px;
+    text-align: end;
+    outline: none;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+.evaluate{
+    color: aliceblue;
+    background-color: rgba(10, 68, 168, 0.826);
+}
+.evaluate:hover{
+    background-color: rgb(144, 181, 236);
+    font-size: 30px;
+}
